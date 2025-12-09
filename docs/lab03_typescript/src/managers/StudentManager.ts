@@ -34,7 +34,6 @@ export class StudentManager {
     );
   }
 
-  // เพิ่ม: ค้นหาด้วย email
   findStudentByEmail(email: string): Student | undefined {
     return this.students.find(s => s.email.toLowerCase() === email.trim().toLowerCase());
   }

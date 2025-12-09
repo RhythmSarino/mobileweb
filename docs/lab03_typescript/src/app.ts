@@ -46,7 +46,6 @@ function renderTable(elementId: string = "studentTableBody"): void {
   renderTable();
 };
 
-// ค้นหาชื่อ (first_name หรือ last_name)
 (document.getElementById("searchNameBtn") as HTMLButtonElement).onclick = () => {
   const keyword = (document.getElementById("searchName") as HTMLInputElement).value;
   const results = manager.findStudentsByName(keyword);
@@ -54,7 +53,6 @@ function renderTable(elementId: string = "studentTableBody"): void {
   alert(`ผลการค้นหา: ${results.length} คน`);
 };
 
-// ค้นหาสาขา
 (document.getElementById("searchMajorBtn") as HTMLButtonElement).onclick = () => {
   const keyword = (document.getElementById("searchMajor") as HTMLInputElement).value;
   const results = manager.findStudentsByMajor(keyword);
@@ -62,7 +60,6 @@ function renderTable(elementId: string = "studentTableBody"): void {
   alert(`พบในสาขา: ${results.length} คน`);
 };
 
-// ค้นหาอีเมล (ใหม่)
 (document.getElementById("searchEmailBtn") as HTMLButtonElement).onclick = () => {
   const email = (document.getElementById("searchEmail") as HTMLInputElement).value;
   const result = manager.findStudentByEmail(email);
