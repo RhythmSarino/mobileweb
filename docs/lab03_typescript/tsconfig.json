@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "module": "es6",
-    "outDir": "./docs/lab03_typescript/dist",
+    "outDir": "./dist",
     "rootDir": "./src",
     "strict": true
   }

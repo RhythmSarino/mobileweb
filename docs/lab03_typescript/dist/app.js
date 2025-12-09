@@ -37,7 +37,7 @@ document.getElementById("addBtn").onclick = () => {
     manager.addStudent(student);
     renderTable();
 };
-// ค้นหาชื่อ
+// ค้นหาชื่อ (first_name หรือ last_name)
 document.getElementById("searchNameBtn").onclick = () => {
     const keyword = document.getElementById("searchName").value;
     const results = manager.findStudentsByName(keyword);
@@ -51,7 +51,7 @@ document.getElementById("searchMajorBtn").onclick = () => {
     showList(results);
     alert(`พบในสาขา: ${results.length} คน`);
 };
-// ค้นหาอีเมล
+// ค้นหาอีเมล (ใหม่)
 document.getElementById("searchEmailBtn").onclick = () => {
     const email = document.getElementById("searchEmail").value;
     const result = manager.findStudentByEmail(email);
