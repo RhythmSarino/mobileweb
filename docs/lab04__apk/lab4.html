@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lab 04: Photo Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      background: #ffffff;
+      width: 380px;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      padding: 24px;
+      text-align: center;
+    }
+    h1 {
+      color: #2a5298;
+      margin-bottom: 16px;
+      font-size: 22px;
+    }
+    .info-box {
+      background: #f3f6ff;
+      border-left: 5px solid #6a82fb;
+      padding: 12px;
+      text-align: left;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .info-box p {
+      margin: 6px 0;
+    }
+    .section-title {
+      font-weight: bold;
+      margin: 16px 0 10px;
+      color: #333;
+      font-size: 14px;
+    }
+    .phone-frame {
+      background: #111;
+      border-radius: 20px;
+      padding: 12px;
+      margin: 0 auto 10px;
+      width: 200px;
+    }
+    .phone-frame img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .caption {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 18px;
+    }
+    .download-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff512f, #dd2476);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .download-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(221, 36, 118, 0.4);
+    }
+    .back-link {
+      display: block;
+      margin-top: 18px;
+      font-size: 12px;
+      color: #888;
+      text-decoration: none;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Lab 04: Photo Gallery</h1>
+    <div class="info-box">
+      <p><strong>ชื่อ:</strong>ญานวิทย์ พิชญกุลมงคล</p>
+      <p><strong>รหัสนักศึกษา:</strong> 663380379-2</p>
+    </div>
+    <div class="section-title">ตัวอย่างหน้าจอแอปพลิเคชัน</div>
+    <div class="phone-frame">
+      <img src="Screenshot 2026-01-11 170225.png" alt="App Screenshot">
+    </div>
+    <div class="caption">หน้าจอแอปแบบ Grid แสดงรูปภาพ</div>
+    <div class="section-title">ทดสอบใช้งานบนระบบปฏิบัติการ Android</div>
+    <a href="app-debug.apk" class="download-btn">⬇ ดาวน์โหลด app-debug.apk</a>
+    <a href="/docs/index.html" class="back-link">← กลับไปหน้าหลัก</a>
+  </div>
+</body>
+</html>
