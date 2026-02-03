@@ -1,0 +1,7 @@
+{
+  "name": "lab06-ionic-firebase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

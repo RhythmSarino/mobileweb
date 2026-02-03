@@ -1,0 +1,73 @@
+.add-expense-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  line-height: 10px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+/* Custom styling for inputs */
+ion-item {
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+ion-input,
+ion-select,
+ion-textarea {
+  font-size: 16px;
+}
+
+/* Floating label styling */
+ion-label[position="floating"] {
+  color: var(--ion-color-primary);
+}
+
+ion-input::part(native),
+ion-textarea::part(native) {
+  border: 1px solid var(--ion-color-medium);
+  border-radius: 4px;
+  padding: 12px;
+}
+
+ion-select {
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+/* Button styling */
+ion-button {
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Responsive styling */
+@media (max-width: 576px) {
+  .add-expense-container {
+    padding: 15px;
+  }
+
+  ion-input,
+  ion-select,
+  ion-textarea {
+    font-size: 14px;
+  }
+}

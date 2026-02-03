@@ -1,0 +1,33 @@
+.edit-expense-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-section {
+  flex: 1;
+  padding: 1rem 0;
+  line-height: 10px;
+  padding-left: 1rem;
+  gap: 10px;
+}
+
+.button-section {
+  padding: 1rem;
+  background: var(--ion-background-color);
+  border-top: 1px solid var(--ion-border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.button-section ion-button {
+  margin: 0;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
