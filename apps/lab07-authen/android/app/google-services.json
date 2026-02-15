@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "112227896215",
+    "project_id": "lab7mobileweb",
+    "storage_bucket": "lab7mobileweb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112227896215:android:841403c18e244abaeb52d2",
+        "android_client_info": {
+          "package_name": "cpkku.yanaw.lab07"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112227896215-eutgvnt1fd64m90ndj2uq30duao6je4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHi4vAu6Zxnnc9H1VF-cIEjNYUjdE0iwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112227896215-eutgvnt1fd64m90ndj2uq30duao6je4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
