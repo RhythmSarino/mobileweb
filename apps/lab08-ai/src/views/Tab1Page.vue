@@ -87,8 +87,9 @@
 
           <div v-if="result.safety" class="result-section">
             <div class="result-label">⚡ Safety Status</div>
-            <div class="safety-badge" :class="{ 'safety-safe': result.safety === 'safe', 'safety-warning': result.safety !== 'safe' }">
-              {{ result.safety }}
+            <div class="safety-badge" :class="{ 'safety-safe': !result.safety.isSensitive, 'safety-warning': result.safety.isSensitive }">
+              {{ result.safety.isSensitive ? 'Warning' : 'Safe' }}
+              <template v-if="result.safety.notes"> — {{ result.safety.notes }}</template>
             </div>
           </div>
 
