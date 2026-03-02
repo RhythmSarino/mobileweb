@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Lab 07: Authentication Screens</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: #ffffff;
+      width: 90%;
+      max-width: 900px;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      padding: 40px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    h1 {
+      color: #2a5298;
+      margin-bottom: 16px;
+      font-size: 28px;
+    }
+
+    .info-box {
+      background: #f3f6ff;
+      border-left: 5px solid #6a82fb;
+      padding: 16px;
+      text-align: left;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .info-box p {
+      margin: 8px 0;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin: 20px 0;
+      color: #333;
+      font-size: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      margin-bottom: 40px;
+      justify-items: center;
+    }
+
+    .gallery-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .phone-frame {
+      background: #111;
+      border-radius: 24px;
+      padding: 16px;
+      width: 100%;
+      max-width: 400px;
+      box-sizing: border-box;
+    }
+
+    .phone-frame img {
+      width: 100%;
+      border-radius: 16px;
+      display: block;
+    }
+
+    .caption {
+      font-size: 15px;
+      color: #555;
+      margin-top: 14px;
+      font-weight: 500;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff512f, #dd2476);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .download-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(221, 36, 118, 0.4);
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 18px;
+      font-size: 12px;
+      color: #888;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Lab 09: Sensors</h1>
+    <div class="info-box">
+      <p><strong>ชื่อ:</strong>ญานวิทย์ พิชญกุลมงคล</p>
+      <p><strong>รหัสนักศึกษา:</strong> 663380379-2</p>
+    </div>
+    <div class="section-title">ภาพตัวอย่างหน้าจอ Sensors</div>
+    <!-- Gallery -->
+    <div class="gallery">
+      <!-- menu -->
+      <div class="gallery-item">
+        <div class="phone-frame">
+          <img src="9menu.png" alt="ภาพหน้า Menu">
+        </div>
+        <br>
+        <div class="caption">ภาพหน้า Menu</div>
+      </div>
+
+      <!-- start -->
+      <div class="gallery-item">
+        <div class="phone-frame">
+          <img src="9start.png" alt="ภาพหน้า start">
+        </div>
+        <br>
+        <div class="caption">ภาพหน้า Start</div>
+      </div>
+
+      <!-- Google login -->
+      <div class="gallery-item">
+        <div class="phone-frame">
+          <img src="9end.png" alt="ภาพหน้า end">
+        </div>
+        <br>
+        <div class="caption">ภาพหน้า End หลังหยุด workout</div>
+      </div>
+
+    <a href="https://rhythmsarino.github.io/mobileweb/" class="back-link">← กลับไปหน้าหลัก</a>
+  </div>
+</body>
+
+</html>
